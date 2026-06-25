@@ -50,6 +50,8 @@ const performTool = async (tool) => {
   }
 }
 
+
+
 async function main() {
   const [, , flag, prompt] = process.argv
   const apiKey = process.env.OPENROUTER_API_KEY
